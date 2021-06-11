@@ -90,87 +90,20 @@ button {
 }
 
 @media (min-width: 800px) {
-  /* #wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    border: 1px solid black;
-    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/spirit-island-jasper-ab-canada-royalty-free-image-1575037924.jpg");
-  } */
-
-  /* #text {
-    grid-area: quote;
-  }
-
-  #twitterIcon {
-    grid-area: icons;
-  }
-
-  #author {
-    grid-area: author;
-  }
-
-  #new-quote {
-    grid-area: new-quote;
-  } */
-
   #quote-box {
-    /* background-color: #fff; */
     width: 50vw;
-    /* margin: 10px;
-    padding: 10px; */
-    /* border-radius: 50px;
-    border: 3px solid rgb(51, 183, 227);
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "quote quote quote quote quote"
-      ". . . . author"
-      "icons . . . new-quote"; */
   }
-
-  /* #quote-box > #text {
-    grid-column: 2 / span 3;
-    grid-row: 1 / 2;
-    display: block;
-    place-self: center;
-    font-weight: 900;
-    font-family: cursive;
-    font-size: 20px;
-    margin-top: 3em;
-  } */
 
   #quote-box > #author {
     place-self: start start;
-    /* font-size: 18px;
-    font-family: cursive;
-    font-weight: 900;
-    white-space: inherit;
-    margin-bottom: 2rem; */
   }
 
   #quote-box > #new-quote {
     place-self: center start;
-    /* white-space: inherit;
-    border: none; */
     margin-bottom: 0;
   }
 
   #quote-box > #twitterIcon {
     justify-self: center;
-    /* align-self: center;
-    padding: 1em; */
   }
-
-  /* .react-icons {
-    color: rgb(51, 183, 227);
-  } */
-
-  /* button {
-    background-color: rgb(51, 183, 227);
-    color: rgb(0, 0, 0);
-    font-weight: 900;
-  } */
 }

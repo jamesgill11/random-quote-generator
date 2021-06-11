@@ -8,17 +8,15 @@ const RandomQuote = () => {
   const [quote, setQuote] = useState({});
 
   useEffect(() => {
-    const fetchQuote = async () => {
-      const result = await axios("https://api.quotable.io/random");
-      setQuote(result.data);
-    };
-    fetchQuote();
+    axios("https://api.quotable.io/random").then((res) => {
+      const newResult = res.data;
+      setQuote(newResult);
+    });
   }, []);
 
   const handleClick = () => {
     axios.get("https://api.quotable.io/random").then((res) => {
       const newQuote = res.data;
-      console.log(newQuote.author);
       setQuote(newQuote);
     });
   };

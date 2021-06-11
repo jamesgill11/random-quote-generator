@@ -5,3 +5,5 @@ Created using React, React Hooks (useState and useEffect), react-icons, CSS (FLE
 The quote came from RANDOM QUOTE API.
 
 Tweet the quote if you like it :) by clicking on the twitter symbol.
+
+URL: https://zealous-raman-5429fa.netlify.app
